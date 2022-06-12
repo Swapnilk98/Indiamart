@@ -1,0 +1,137 @@
+.Navbar2 {
+  width: 88%;
+  height: 45px;
+  margin: auto;
+  display: flex;
+  padding: 0px 5px;
+  background-color: white;
+}
+.Navbar2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+.Navbar2first {
+  width: 78%;
+  margin-right: 2%;
+  background-color: #c0b9b97a;
+  display: flex;
+}
+.Navbar2first > div {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.Navbar2second {
+  width: 20%;
+  background-color: teal;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.Navbar2first1 {
+  background-color: rgb(15, 15, 207);
+  width: 10%;
+  text-align: center;
+  /* margin-top: 2px; */
+  padding-top: 5px;
+}
+.Navbar2first1 {
+  background-color: rgb(15, 15, 207);
+  width: 10%;
+  text-align: center;
+  /* margin-top: 2px; */
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.Navbar2first2 {
+  width: 20%;
+  text-align: center;
+  /* margin-top: 2px; */
+  padding-top: 5px;
+  position: relative;
+}
+.Navbar2first3 {
+  width: 10%;
+  text-align: center;
+  /* margin-top: 2px; */
+  padding-top: 5px;
+}
+.Navbar2first4 {
+  width: 10%;
+  text-align: center;
+  /* margin-top: 2px; */
+  padding-top: 0px;
+}
+
+/* ------------------------------------------------------------------- */
+.drop1 a {
+  text-decoration: none;
+  color: black;
+}
+.drop1 {
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: white;
+  /* position: absolute; */
+}
+.drop1 > table {
+  width: 100%;
+}
+.dropdown1 a {
+  font-size: small;
+}
+.dropdown1 tr th {
+  font-size: small;
+}
+.dropdown1 .t1 {
+  height: 270px;
+  width: 100%;
+}
+.drop1 a i {
+  color: rgb(185, 185, 185);
+  padding-right: 5px;
+}
+.dropdown1 .t2 {
+  height: 270px;
+  width: 100%;
+}
+.dropdown1 .t2 .th2 {
+  padding-left: 30px;
+}
+.dropdown1 .t2 .th2 a {
+  padding-left: 15px;
+}
+
+.dropdown1 {
+  border-radius: 5px;
+  width: 450%;
+  background-color: white;
+  height: auto;
+  margin: auto;
+  box-sizing: border-box;
+  position: absolute;
+  /* right: 100px; */
+  top: 60px;
+  display: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.drop1 a:hover {
+  background-color: rgb(223, 219, 219);
+}
+.add {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.dropdown1 .add1 a {
+  text-decoration: underline;
+  font-weight: bold;
+  padding-left: 70px;
+}

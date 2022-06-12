@@ -1,0 +1,44 @@
+#HomeAbout {
+  width: 100%;
+  margin: 20px auto;
+}
+#HomeAbout h1 {
+  margin-bottom: 10px;
+  width: 160px;
+  margin: auto;
+  border-bottom: 5px solid navy;
+}
+#HomeAbout > p {
+  line-height: 25px;
+  margin: 10px;
+  font-size: 1.1rem;
+}
+#HomeAbout > div {
+  width: 100%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+#HomeAbout > #details > div {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+}
+
+#HomeAbout > #details .icon {
+  font-size: 3.5rem;
+  color: blue;
+  padding: 10px;
+  background-color: #dacece8f;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+#HomeAbout > #details h3 {
+  font-weight: 100;
+  color: grey;
+}
+#HomeAbout > #details p {
+  color: black;
+}

@@ -1,0 +1,78 @@
+.Headers {
+  margin: auto;
+
+  width: 88%;
+
+  display: flex;
+  margin-top: 72px;
+
+  background-color: white;
+
+  padding-bottom: 5px;
+}
+.Headers1 {
+  width: 10%;
+  /* border: 1px solid red; */
+}
+.Headers1 > img {
+  width: 65%;
+  /* height: 100%; */
+  border-radius: 50%;
+  margin-top: 14px;
+}
+
+.Headers2 {
+  width: 75%;
+  /* border: 1px solid red; */
+  margin-left: -16px;
+}
+.Headers2 h1 {
+  margin-bottom: 15px;
+}
+
+.Headers3 {
+  width: 16%;
+  padding-top: 34px;
+}
+.Headers3 > div {
+  display: flex;
+  border: 1px solid rgb(5, 5, 4);
+  border-radius: 3px;
+}
+.Headers32 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 2px;
+  
+ 
+}
+.Headers31 {
+  font-size: 8px;
+  /* margin-top:20px; */
+  margin-left: 2px;
+}
+.Headers33 {
+  font-size: 18px;
+  /* margin-top:20px; */
+  margin-left: 2px;
+}
+.AddressDiv {
+  display: flex;
+  margin-top: -18px;
+  /* border-right: 1px solid black; */
+  padding: 2px;
+}
+.Headaddress {
+  display: flex;
+}
+.Headaddress > div {
+  width: auto;
+  margin-right: 5px;
+}
+.gstdiv {
+  display: flex;
+  margin-top: -18px;
+  /* border-right: 1px solid black; */
+  padding: 2px;
+}

@@ -1,0 +1,104 @@
+/* utility classes */
+
+.yellow {
+  color: rgb(215, 215, 10);
+  font-size: 1.2rem;
+}
+.reviewMargin {
+  position: relative;
+  top: 8px;
+  color: red;
+  margin-right: 25px;
+}
+.green {
+  color: rgb(9, 98, 9);
+}
+#homeReview {
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  text-align: left;
+}
+
+#homeReview > p {
+  border-bottom: 5px solid navy;
+  margin: auto;
+  width: 200px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+#homeReview #sectionOne {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 85%;
+}
+
+#homeReview #sectionOne #rate {
+  font-size: 2rem;
+  font-weight: bold;
+}
+#homeReview #sectionOne h2 {
+  color: rgb(143, 136, 136);
+}
+.width {
+  width: 60%;
+  margin: 0px 9px;
+  margin-top: 10px;
+}
+#homeReview #sectionOne p {
+  display: flex;
+}
+
+#sectionTwo {
+  margin: 20px 0px;
+}
+
+#sectionTwo > h2 {
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 40px;
+}
+
+.sectionThree {
+  margin-left: 5%;
+  margin-top: 50px;
+  text-align: left;
+  display: flex;
+  width: 33%;
+  justify-content: space-between;
+}
+.sectionThree > div:nth-child(1) {
+  margin-top: 10px;
+  background-color: rgb(188, 182, 182);
+  border-radius: 50%;
+  height: 40px;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+.sectionThree > div > h1 {
+  margin-top: -17px;
+}
+.sectionThree #name {
+  font-weight: bold;
+}
+
+.sectionThree p {
+  margin: 10px 0px;
+  font-size: 1.2rem;
+}
+
+#reviewButton {
+  width: 150px;
+  position: relative;
+  left: 40%;
+  margin-top: 20px;
+  border: none;
+  padding: 10px 15px;
+  background: none;
+  border-radius: 6px;
+  border: 1px solid rgb(202, 196, 196);
+  color: navy;
+}

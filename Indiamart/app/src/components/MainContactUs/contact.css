@@ -1,0 +1,48 @@
+#MainContact {
+  background-color: white;
+  height: 400px;
+  display: flex;
+  width: 88%;
+  margin: 0px auto;
+  padding: 10px 20px;
+}
+#MainContact > div {
+  width: 50%;
+}
+#MainContact .left form {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+#MainContact .left form #text {
+  height: 90px;
+  text-align: left;
+  background-color: rgba(246, 241, 241, 0.755);
+  margin: 10px;
+  border: 1px solid rgb(230, 227, 227);
+}
+
+#MainContact .left form #button {
+  width: 180px;
+  padding: 10px;
+  margin: auto;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+}
+#MainContact .right div {
+  margin: 10px 0px;
+}
+#MainContact .right span {
+  position: relative;
+  top: -7px;
+  left: 11px;
+}
+
+.text-left {
+  text-align: left;
+}
