@@ -1,0 +1,41 @@
+#productService {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  width: 90%;
+  margin: 30px auto;
+  text-decoration: none;
+}
+
+#homeProudctService {
+  margin: 50px auto;
+  width: 100%;
+  margin-bottom: 200px;
+}
+#homeProudctService img {
+  height: 100%;
+  height: 200px;
+  width: 150px;
+}
+
+#homeProudctService > p {
+  width: 250px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 5px solid navy;
+  margin: 30px auto;
+}
+
+#homeProudctService button {
+  border: none;
+  background: none;
+  padding: 7px 13px;
+  font-size: 1.3rem;
+  color: teal;
+  border: 1px solid teal;
+  border-radius: 6px;
+}
+#homeProudctService button:hover {
+  background-color: teal;
+  color: white;
+}

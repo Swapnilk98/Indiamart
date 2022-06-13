@@ -1,0 +1,55 @@
+.pageMainDiv {
+  margin-left: 20px;
+}
+.pageHead {
+  color: blue;
+  font-family: Arial;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.pageInfo {
+  color: rgb(90, 56, 56);
+  font-family: Arial;
+}
+.productDataDiv {
+  width: 100%;
+  display: flex;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+.singleProductDiv {
+  width: 10%;
+  background-color: rgb(245, 242, 242);
+  border-radius: 10px;
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  margin-left: 10px;
+}
+.singleProductImg {
+  width: 100%;
+  height: 120px;
+  border-radius: 10px;
+}
+.singleProductHead {
+  margin-top: 0px;
+  margin-left: 8px;
+  font-size: 13.5px;
+  color: rgb(77, 77, 164);
+  font-family: Arial;
+  text-align: left;
+}
+.singleProductAskPrice {
+  text-decoration: underline;
+  margin-left: 8px;
+  font-size: 13.5px;
+  color: rgb(77, 77, 164);
+  font-family: Arial;
+  cursor: pointer;
+  text-align: left;
+  margin-top: 20px;
+}
+.singleProductAskPrice:hover {
+  color: rgb(193, 90, 90);
+}

@@ -1,0 +1,190 @@
+{
+  "home": {},
+  "Product": {},
+  "productService": [
+    {
+      "image": "https://3.imimg.com/data3/BX/CS/MY-3792183/foundation-250x250.jpg",
+      "name": "Makeup",
+      "p1": "Fondation",
+      "p2": "Compact",
+      "p3": "Pan Cake Foundation",
+      "id": 10
+    },
+    {
+      "image": "https://4.imimg.com/data4/QY/OX/GLADMIN-3792183/1-250x250.jpg",
+      "name": " Lipstick",
+      "p1": "Baked Brick Lipstick",
+      "p2": "Cerise Pink Lipstick",
+      "p3": "Coral Red Lipstick",
+      "id": 11
+    },
+    {
+      "image": "https://3.imimg.com/data3/RK/XF/MY-3792183/01-250x250.jpg",
+      "name": "Lips Products",
+      "p1": "Fondation",
+      "p2": "Compact",
+      "p3": "Pan Cake Foundation",
+      "id": 12
+    },
+    {
+      "image": "https://3.imimg.com/data3/NL/QG/MY-3792183/fruit-bleach-250x250.jpg",
+      "name": "Bleach Cream",
+      "p1": "Baked Brick Lipstick",
+      "p2": "Cerise Pink Lipstick",
+      "p3": "Coral Red Lipstick",
+      "id": 13
+    },
+    {
+      "image": "https://3.imimg.com/data3/QC/FL/MY-3792183/fairness-scrub-250x250.jpg",
+      "name": "Scrubs",
+      "p1": "Fondation",
+      "p2": "Compact",
+      "p3": "Pan Cake Foundation",
+      "id": 14
+    },
+    {
+      "image": "https://3.imimg.com/data3/ML/RO/MY-3792183/mascara-250x250.jpg",
+      "name": "Eyes Products",
+      "p1": "Baked Brick Lipstick",
+      "p2": "Cerise Pink Lipstick",
+      "p3": "Coral Red Lipstick",
+      "id": 15
+    },
+    {
+      "image": "https://3.imimg.com/data3/US/UJ/MY-3792183/lip-balm-250x250.jpg",
+      "name": "LipCare",
+      "p1": "Fondation",
+      "p2": "Compact",
+      "p3": "Pan Cake Foundation",
+      "id": 16
+    },
+    {
+      "image": "https://3.imimg.com/data3/WJ/EO/MY-3792183/01-250x250.jpg",
+      "name": "Traditional Items",
+      "p1": "Baked Brick Lipstick",
+      "p2": "Cerise Pink Lipstick",
+      "p3": "Coral Red Lipstick",
+      "id": 17
+    }
+  ],
+  "similarCategory": [
+    {
+      "image": "https://5.imimg.com/data5/ECOM/Default/2022/4/YP/JQ/ES/112041886/jpg-20220424-122355-0000-500x500.jpg",
+      "name": "Natural and Chemical Free",
+      "price": 450,
+      "desc": "Mavashivaa - Golden Traders",
+      "id": "21"
+    },
+    {
+      "image": "https://5.imimg.com/data5/ECOM/Default/2022/6/UU/PA/IS/9422220/hair-nose-lip-3-color-single-lipstick-moisturizing-color-waterproof-temptation-of-angels-222-500x500.jpg",
+      "name": "3 color Single Lipstick",
+      "price": 1499,
+      "desc": "My Online Collection Store",
+      "id": "22"
+    },
+    {
+      "image": "https://5.imimg.com/data5/ECOM/Default/2022/5/VF/FQ/IR/65058394/hc894c44112e14fc9a075843f424b751e1-500x500.jpg",
+      "name": "5 In One Lipstick Combination",
+      "price": 899,
+      "desc": "Trendy Fashion Hub",
+      "id": "23"
+    },
+    {
+      "image": "https://5.imimg.com/data5/ECOM/Default/2022/6/EJ/UK/MU/61819412/florallips2-500x500.jpg",
+      "name": "Floral Lips",
+      "price": 450,
+      "desc": "Artist Space",
+      "id": "24"
+    },
+    {
+      "image": "https://5.imimg.com/data5/ECOM/Default/2022/2/AN/KF/BP/147540438/product-image-1733246376-500x500.jpg",
+      "name": "Quibest Matte Lipstick-Velvet",
+      "price": 518,
+      "desc": "Aadhya Collection",
+      "id": "25"
+    },
+    {
+      "image": "https://5.imimg.com/data5/ECOM/Default/2022/2/MS/ET/BO/11390531/lipstick-maple-swatch-500x500.png",
+      "name": "Gush Beauty Plain Paint",
+      "price": 450,
+      "desc": "Garima Collection",
+      "id": "26"
+    },
+    {
+      "image": "https://5.imimg.com/data5/ECOM/Default/2022/3/YP/UI/YT/149518787/l-13-500x-b610bc43-3250-4a72-b771-b6faa6def6b5-500x500.jpg",
+      "name": "Beauty People Matte Lucious",
+      "price": 450,
+      "desc": "AM Enterprise",
+      "id": "27"
+    }
+    
+  ],
+  "relatedCategory": [
+    {
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/1/CA/EX/VM/52181736/miss-rose-hot-and-soft-matte-lipstick-250x250.jpeg",
+      "name": "Miss Rose Pink Lipstick",
+      "price": 55,
+      "brand": "Cosmetic World",
+      "location": "New Delhi, Delhi, India",
+      "mobile": "Call 07942554198"
+    },
+    {
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/1/CA/EX/VM/52181736/miss-rose-hot-and-soft-matte-lipstick-250x250.jpeg",
+      "name": "Miss Rose Pink Lipstick",
+      "price": 55,
+      "brand": "Cosmetic World",
+      "location": "New Delhi, Delhi, India",
+      "mobile": "Call 07942554198"
+    },
+    {
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/1/IB/TX/TW/52181736/miss-rose-pink-lipstick-250x250.jpeg",
+      "name": "Miss Rose Pink Lipstick",
+      "price": 55,
+      "brand": "Cosmetic World",
+      "location": "New Delhi, Delhi, India",
+      "mobile": "Call 07942554198"
+    },
+    {
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/1/IB/TX/TW/52181736/miss-rose-pink-lipstick-250x250.jpeg",
+      "name": "Miss Rose Pink Lipstick",
+      "price": 55,
+      "brand": "Cosmetic World",
+      "location": "New Delhi, Delhi, India",
+      "mobile": "Call 07942554198"
+    }
+  ],
+  "relatedCategories": [
+    {
+      "image": "https://3.imimg.com/data3/EP/VJ/GLADMIN-105850/cosmetics-250x250.jpg",
+      "name": "Cosmetics",
+      "id": 31
+    },
+    {
+      "image": "https://5.imimg.com/data5/JM/OT/KQ/GLADMIN-68087/cosmetic-third-party-manufacturing-250x250.jpg",
+      "name": "Cosmetics Third Party Manufacturing",
+      "id": 32
+    },
+    {
+      "image": "https://3.imimg.com/data3/TT/GW/GLADMIN-21908/beauty-cosmetics-250x250.jpg",
+      "name": "Beauty Cosmetics",
+      "id": 33
+    },
+    {
+      "image": "https://5.imimg.com/data5/ZB/JY/DJ/GLADMIN-68087/matte-lipstick-250x250.png",
+      "name": "Matte Lipstick",
+      "id": 34
+    },
+    {
+      "image": "https://3.imimg.com/data3/KG/HH/GLADMIN-11601/lip-balm-250x250.jpg",
+      "name": "Lip Balm",
+      "id": 35
+    },
+    {
+      "image": "https://3.imimg.com/data3/IF/CY/GLADMIN-108453/liquid-lipstick-250x250.jpg",
+      "name": "Liquid Lipstick",
+      "id": 36
+    }
+    
+  ]
+}
+

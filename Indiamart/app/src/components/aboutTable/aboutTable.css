@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+  margin: 30px auto;
+  border: 1px dashed rgb(185, 180, 180);
+  padding-left: 10px;
+}
+table td,
+th,
+h1 {
+  text-align: left;
+  padding: 5px 10px;
+}
+
+.border {
+  border-bottom: 1px dashed rgb(185, 180, 180);
+}
+.font {
+  font-size: 1.2rem;
+}

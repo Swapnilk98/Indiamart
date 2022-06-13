@@ -1,0 +1,64 @@
+#relatedProductSection {
+  margin: 20px auto;
+  width: 90%;
+}
+
+#relatedProductSection h2 {
+  text-align: left;
+}
+
+#relatedProducts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  width: 100%;
+  margin: 20px auto;
+}
+#relatedProducts .realtedProduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+  border: 1px solid rgb(241, 238, 238);
+  height: 500px;
+}
+
+#relatedProducts .realtedProduct img {
+  border: 1px solid rgb(241, 238, 238);
+}
+
+#relatedProducts .realtedProduct a {
+  color: #2e3192;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+#relatedProducts .realtedProduct a:hover {
+  border-bottom: 2px solid #2e3192;
+}
+#relatedProducts .realtedProduct p {
+  font-size: 1.2rem;
+}
+
+#relatedProducts .realtedProduct .location {
+  color: rgb(131, 125, 125);
+  margin: 10px 0px;
+}
+
+#relatedProducts .realtedProduct .call {
+  position: relative;
+  top: -4px;
+  left: 4px;
+}
+
+#relatedProducts .realtedProduct button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: rgb(4, 93, 93);
+  color: white;
+  border: none;
+  font-weight: bolder;
+}

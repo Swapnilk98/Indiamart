@@ -1,0 +1,78 @@
+/* 
+#cartPage {
+  width:100%;
+  height: 100%;
+  position: fixed;
+  background:transparent;
+ 
+}
+
+#cartPage .card {
+  width: 60%;
+  margin: 80px auto;
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  background-color: white;
+  height: 60vh;
+  border-radius: 10px;
+  height: 90vh;
+}
+
+#cartPage .card img {
+  width: 70%;
+}
+
+#cartPage .card > div {
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+#cartPage .formData {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
+  text-align: left;
+  margin: 10px 0px;
+}
+
+#cartPage .card p {
+  font-size: 0.9rem;
+  text-align: left;
+}
+#cartPage .card input {
+  height: 30px;
+  margin: 10px 0px;
+  text-align: left;
+}
+#cartPage .card form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+#cartPage .card .quant {
+  margin-left: -125px;
+}
+#cartPage .card form select {
+  width: 40%;
+  padding: 5px;
+  margin: 10px;
+}
+#cartPage .card form #radio {
+  display: flex;
+}
+#cartPage .card form #radio div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px 5px;
+  border: 1px solid grey;
+  height: 20px;
+  border-radius: 30%;
+  padding: 5px;
+}
+#cartPage .card form #submit {
+  width: 200px;
+  padding-bottom: 10px;
+  margin: auto;
+
+} */

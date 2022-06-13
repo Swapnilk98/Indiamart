@@ -1,0 +1,28 @@
+#relatedCategoriesSection {
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#relatedCategoriesSection h1 {
+  text-align: left;
+}
+#relatedCategories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+#relatedCategories .eachProduct {
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+}
+#relatedCategories .eachProduct img {
+  width: 150px;
+  border: 1px solid rgb(194, 191, 191);
+  margin-right: 15px;
+}
+#relatedCategories .eachProduct {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
