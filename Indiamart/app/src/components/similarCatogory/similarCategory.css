@@ -1,0 +1,148 @@
+#similarCategorySection {
+  width: 90%;
+  margin: 30px auto;
+  margin-top: 100px;
+  padding: 10px;
+  /* border: 1px solid red; */
+}
+
+#similarCategory {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 10px;
+  width: 100%;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+#similarCategorySection h1 {
+  text-align: left;
+}
+
+#SimilarEachProduct {
+  background-color: #f6f6f6;
+  border: 1px solid #dadada;
+  border-radius: 6px;
+  padding: 7px 2px;
+  padding-bottom: 40px;
+  height: auto;
+  width: 140px;
+}
+
+#SimilarEachProduct img {
+  width: 100%;
+}
+
+#SimilarEachProduct a {
+  text-decoration: none;
+}
+
+#SimilarEachProduct a:hover {
+  color: red;
+}
+
+#SimilarEachProduct button {
+  color: white;
+  font-weight: bold;
+  padding: 6px 12px;
+  border: none;
+  background: none;
+  background-color: #00a699;
+  border-radius: 15%;
+  margin: 10px 0px;
+}
+
+#similarCategorySection #form {
+  border: 1px solid black;
+  width: 60%;
+  margin: 50px auto;
+
+  padding: 5%;
+}
+
+#similarCategorySection #form form {
+  width: 100%;
+  /* text-align: left; */
+}
+
+#similarCategorySection #form h3 {
+  color: #2e3192;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#similarCategorySection .form {
+  justify-content: space-between;
+}
+
+#similarCategorySection .form input {
+  padding: 10px;
+}
+
+.btn {
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: none;
+  background: none;
+  background-color: #00a699;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+#form {
+  height: auto;
+  width: auto;
+  /* border: 1px solid red; */
+}
+
+#h {
+  /* border: 1px solid red; */
+  width: 600px;
+  margin-left: -50px;
+}
+
+.flexForm h4 {
+  display: flex;
+  margin-top: 15px;
+}
+
+.flexForm input {
+  align-items: flex-end;
+  height: 50px;
+  width: 220px;
+  margin-top: -40px;
+}
+
+#mob {
+  display: flex;
+}
+
+#mob input {
+  margin-left: 32px;
+  margin-top: 10px;
+  height: 50px;
+  width: 220px;
+}
+
+#mob h4 {
+  margin-top: 20px;
+}
+
+#Name {
+  display: flex;
+}
+
+#Name input {
+  margin-left: 102px;
+  margin-top: 10px;
+  height: 50px;
+  width: 220px;
+}
+
+#Name h4 {
+  margin-top: 20px;
+  margin-left: 10px;
+}
