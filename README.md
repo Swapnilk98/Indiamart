@@ -67,7 +67,7 @@ Deploy Link:-(https://magical-trifle-dda29f.netlify.app/)
 
 Landing page:
 
-![alt text](file:///C:/Users/Dreams/Pictures/Screenshots/Screenshot%20(103).png)
+![alt text](https://miro.medium.com/max/2732/1*ZKVGj4I3rNvxDRMHmFhhrA.png)
 
 Register Page:
 
