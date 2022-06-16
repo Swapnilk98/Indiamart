@@ -1,6 +1,7 @@
 #HomeAbout {
   width: 100%;
   margin: 20px auto;
+  
 }
 #HomeAbout h1 {
   margin-bottom: 10px;
@@ -11,7 +12,7 @@
 #HomeAbout > p {
   line-height: 25px;
   margin: 10px;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 #HomeAbout > div {
   width: 100%;

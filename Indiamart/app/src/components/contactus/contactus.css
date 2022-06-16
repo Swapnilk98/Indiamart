@@ -1,0 +1,134 @@
+.teal {
+  color: teal;
+}
+
+.blue {
+  color: rgb(24, 132, 239);
+}
+
+.navy {
+  width: 100%;
+  color: navy;
+}
+
+.flex {
+  display: flex;
+  margin: 10px 0px;
+}
+
+.flex>p {
+  margin-left: 10px;
+}
+
+#sms {
+  background-color: teal;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+#mail {
+  border: 1px solid teal;
+}
+
+#contactus #mail:hover {
+  background-color: teal;
+  color: white;
+}
+
+#contactus {
+  width: 90%;
+  margin: 30px auto;
+}
+
+#contactus>h1 {
+  background-color: navy;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  padding: 5px 10px;
+}
+
+#contactus #col1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: left;
+}
+
+#contactus>div {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 10px;
+}
+
+#contactus a {
+  display: block;
+  text-decoration: none;
+  margin: 10px 0px;
+  text-align: left;
+}
+
+#contactus a:hover {
+  color: teal;
+}
+
+#contactus #col1 h2 {
+  text-align: left;
+}
+
+#contactus #col1 div {
+  text-align: left;
+}
+
+#contactus #col2 {
+  text-align: left;
+}
+
+#contactus #col2 h3 {
+  margin-left: -125px;
+}
+
+#contactus button {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+#contactus #col2 #location {
+  /* display: flex;
+  margin: 10px 0px;
+  text-align: left; */
+}
+
+#col3 textarea {
+  margin: 20px 0px;
+}
+
+#col3>button {
+  position: relative;
+  left: 35%;
+  margin-top: 20px;
+  background-color: teal;
+  color: white;
+  border: none;
+  font-weight: bolder;
+}
+
+#paragraph p {
+  text-align: left;
+  margin-left: -5px;
+}
+
+#col3 h2 {
+  color: #2e3192;
+  font-size: 19px;
+}
+
+#col3 {
+  border: 1px solid black;
+}

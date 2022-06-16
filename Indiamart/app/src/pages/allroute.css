@@ -1,0 +1,11 @@
+#Body {
+  width: 88%;
+  margin: auto;
+  background-color: white;
+  margin-top: -21px;
+  padding-top: 30px;
+}
+#aboutSection {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}

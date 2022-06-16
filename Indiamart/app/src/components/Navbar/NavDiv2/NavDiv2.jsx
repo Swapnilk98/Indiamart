@@ -6,15 +6,8 @@ import PrecisionManufacturingIcon from "@mui/icons-material/PrecisionManufacturi
 import VaccinesIcon from "@mui/icons-material/Vaccines";
 import MasksIcon from "@mui/icons-material/Masks";
 import MedicalInformationIcon from "@mui/icons-material/MedicalInformation";
-import QuestionMarkIcon from "@mui/icons-material/QuestionMark";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
-import SmsIcon from "@mui/icons-material/Sms";
-import MailIcon from "@mui/icons-material/Mail";
-import CallIcon from "@mui/icons-material/Call";
-import ChatIcon from "@mui/icons-material/Chat";
-import MenuBookIcon from "@mui/icons-material/MenuBook";
-import MessageIcon from "@mui/icons-material/Message";
+import HelpIcon from "@mui/icons-material/Help";
+import ForumIcon from "@mui/icons-material/Forum";
 import ModeIcon from "@mui/icons-material/Mode";
 import HomeIcon from "@mui/icons-material/Home";
 import PostAddIcon from "@mui/icons-material/PostAdd";
@@ -46,10 +39,6 @@ const NavDiv2 = () => {
   async function getdata() {
     let res = await fetch("https://sagarmart.herokuapp.com/users", {
       method: "GET",
-      headers: {
-        "content-type": "application/json",
-        authorization: `Bearer ${c}`,
-      },
     });
     let data = await res.json();
     setpopupform(data);
@@ -278,7 +267,7 @@ const NavDiv2 = () => {
             </table>
           </div>
           <div className="foot">
-            <a href="#">{/* <i class="fab fa-twitter fa-2x"></i> */}</a>
+            <a href="#"></a>
             <h3> Covid-19 Medical Supplies Search on Twitter</h3>
           </div>
         </div>
@@ -291,73 +280,13 @@ const NavDiv2 = () => {
       </div>
       <div className="menu2">
         <a href="#">
-          <QuestionMarkIcon
-            style={{ backgroundColor: "none", color: "white" }}
-          />
+          <HelpIcon style={{ backgroundColor: "none", color: "white" }} />
         </a>
         <p className="navmenu2">Help</p>
-
-        {/* <!-- drop list --> */}
-
-        <div className="help">
-          <p className="helphead">Find answers to your queries</p>
-          <div>
-            <p>
-              <ShoppingCartIcon
-                style={{ color: "grey", fontSize: "16px", marginRight: "8px" }}
-              />
-              For <a href="">Buying</a>
-            </p>
-            <p>
-              <StorefrontIcon
-                style={{ color: "grey", fontSize: "16px", marginRight: "8px" }}
-              />
-              For <a href="">Selling</a>
-            </p>
-          </div>
-
-          <p>
-            <ThumbUpOffAltIcon
-              style={{ color: "grey", fontSize: "16px", marginRight: "8px" }}
-            />
-            Share your Feedback
-          </p>
-          <p>
-            <SmsIcon
-              style={{ color: "grey", fontSize: "16px", marginRight: "8px" }}
-            />
-            Raise a Complaint
-          </p>
-          <p>
-            <MailIcon
-              style={{ color: "grey", fontSize: "16px", marginRight: "8px" }}
-            />
-            Email us on
-            <h4>customercare@indiamart.com</h4>
-          </p>
-          <p>
-            <CallIcon
-              style={{ color: "grey", fontSize: "16px", marginRight: "8px" }}
-            />
-            Call us at <a href=""> 096-9696-9696</a>
-          </p>
-          <p>
-            <ChatIcon
-              style={{ color: "grey", fontSize: "16px", marginRight: "8px" }}
-            />
-            Chat With us
-          </p>
-          <p>
-            <MenuBookIcon
-              style={{ color: "grey", fontSize: "16px", marginRight: "8px" }}
-            />
-            Seller Academy
-          </p>
-        </div>
       </div>
       <div>
         <a href="#">
-          <MessageIcon style={{ backgroundColor: "none", color: "white" }} />
+          <ForumIcon style={{ backgroundColor: "none", color: "white" }} />
         </a>
         <p className="navmenu3">Messages</p>
       </div>
@@ -379,11 +308,10 @@ const NavDiv2 = () => {
           >
             {c != null ? (
               <div className="signpopmain">
-                {/* {c!=null? */}
                 <div className="sig1">
                   <div style={{ fontSize: "20px" }}>
                     <p className="UserName2" style={{ fontSize: "20px" }}>
-                      Hi {popupform.name}
+                      Hi swapnil
                     </p>
                   </div>
                   <div className="ico">

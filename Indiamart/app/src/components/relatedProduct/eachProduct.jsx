@@ -22,3 +22,10 @@ export const EachProductRelated = ({ el }) => {
     </div>
   );
 };
+
+// "image": "https://5.imimg.com/data5/SELLER/Default/2022/1/IB/TX/TW/52181736/miss-rose-pink-lipstick-250x250.jpeg",
+// "name": "Miss Rose Pink Lipstick",
+// "price": 55,
+// "brand": "Cosmetic World",
+// "location": "New Delhi, Delhi, India",
+// "mobile": "Call 07942554198"

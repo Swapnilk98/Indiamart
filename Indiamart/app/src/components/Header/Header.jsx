@@ -21,7 +21,9 @@ export const Header = () => {
           />
         </div>
         <div className="Headers2">
-          <h1 style={{ marginTop: "5px" }}>Blue Heaven Cosmetics (P) Ltd</h1>
+          <h1 style={{ marginTop: "5px" }}>
+            <h4>Blue Heaven Cosmetics (P) Ltd</h4>
+          </h1>
           <div className="Headaddress">
             <div className="AddressDiv">
               <div>
@@ -60,7 +62,7 @@ export const Header = () => {
               <WifiCalling3Icon style={{ fontSize: "17px", color: "green" }} />
             </div>
             <div className="Headers32">View Mobile Number</div>
-            {/* <div lassName="Headers33">Ext 167</div> */}
+            <div lassName="Headers33"></div>
           </div>
         </div>
       </div>

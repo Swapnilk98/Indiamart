@@ -1,0 +1,243 @@
+.allProductsDiv {
+  margin-left: 20px;
+}
+
+.singleProductDetails {
+  display: flex;
+  padding: 20px;
+  height: 500px;
+  margin: 15px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.singleProductDetailsLeftSideDiv {
+  width: 35%;
+  height: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+.singleProductDetailsDiv {
+  width: 100%;
+  height: 90%;
+
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.singleProductDetailsImg {
+  width: 60%;
+  height: 100%;
+}
+.singleProductDetailsInfo {
+  margin-left: 30px;
+  font-family: Arial;
+  width: 60%;
+}
+singleProductDetailsInfo h1,
+h4,
+li,
+.singleProductDetailsHead {
+  text-align: left;
+  margin: 10px 0px;
+}
+
+.ulList {
+  font-family: Arial;
+  color: rgb(90, 56, 56);
+}
+.singleProductDetailsGetLatestPrice {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  text-align: center;
+  text-align: left;
+}
+.singleProductDetailsGetLatestPriceL{
+  color: blue;
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.singleProductDetailsGetLatestPrice:hover {
+  color: rgb(193, 90, 90);
+}
+.singleProductDetailsButton {
+  color: white;
+  font-family: Arial;
+  background-color: rgb(3, 117, 108);
+  width: 250px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.singleProductDetailsButtonDiv {
+  text-align: center;
+  margin-top: 40px;
+}
+.LipstickOuterdiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  margin-top: 30px;
+}
+.ListickDiv {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  padding-bottom: 10px;
+}
+.LipsticImgDiv {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.LipsticImgDiv > img {
+  margin-top: 90px;
+}
+
+#cartPage {
+  width:100vw;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: rgba(0, 0, 0, 0.87)
+  /* background:transparent; */
+  
+  /* border: 1px solid red; */
+ 
+}
+
+#cartPage .card {
+  width: 60%;
+  margin: 80px auto;
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  background-color: white;
+  height: 60vh;
+  border-radius: 10px;
+  height: 90vh;
+}
+
+#cartPage .card img {
+  width: 70%;
+}
+
+#cartPage .card > div {
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+#cartPage .formData {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
+  /* text-align: left; */
+  margin: 10px 0px;
+}
+#formData{
+  /* border: 1px solid red; */
+  margin-left: 150px;
+  
+  
+}
+
+#cartPage .card p {
+  font-size: 0.9rem;
+  text-align: left;
+}
+#cartPage .card input {
+  height: 30px;
+  
+  margin: 10px 0px;
+  text-align: left;
+}
+#cartPage .card form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+}
+#cartPage .card .quant {
+  /* margin-left: -125px; */
+  margin-left: 10px;
+ 
+}
+#cartPage .card form select {
+  width: 40%;
+  padding: 5px;
+  margin: 10px;
+}
+#cartPage .card form #radio {
+  display: flex;
+}
+#cartPage .card form #radio div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 5px;
+  border: 1px solid grey;
+  height: 30px;
+  border-radius: 10%;
+  padding: 5px;
+}
+#cartPage .card form #submit {
+  width: 200px;
+  margin-bottom: 20px;
+  height: 50px;
+  margin: auto;
+
+}
+.subbtn{
+  margin-bottom: 80px;
+}
+.brand{
+  width: 580px;
+  
+}
+.qtydisplay{
+  display: flex;
+  /* border: 1px solid red; */
+  /* height: 50px; */
+  /* padding-left: 130px; */
+}
+.qtydisplay>div:nth-child(2){
+  margin-left: 100px;
+}
+
+.thankyoushow{
+  width: 60%;
+  margin: 80px auto;
+  background-color: white;
+  
+  border-radius: 10px;
+  height: 90vh;
+
+}
+.closediv{
+  margin-top: 10px;
+  /* border: 1px solid red; */
+  /* text-align: right; */
+  height: 25px;
+  
+}
+.right{
+  padding-bottom: 50px;
+}
+.t-close{
+  /* align-items: right; */
+  margin-left: 900px;
+  height: 100%;
+ 
+  cursor: pointer;
+  /* position: absolute; */
+}
+
+.r-close{
+  height: 20px;
+  width: 10px;
+}
+.r-closediv{
+  width: 30px;
+  margin-left: 600px;
+  cursor: pointer;
+}

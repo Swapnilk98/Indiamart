@@ -1,0 +1,15 @@
+.flexDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.flexmainDiv{
+  
+    width: 86%;
+}
+.flexSidebarDiv{
+    width: 14%;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+

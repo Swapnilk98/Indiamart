@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./loginpage.css";
 import indiamart_photo from "../../images/indiamart_photo.jpg";
-import Cookies from 'js-cookie'
+import Cookies from "js-cookie";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addToken } from "../../Redux/cart/action";
@@ -10,8 +10,8 @@ import { useSelector } from "react-redux";
 export const LoginPage = () => {
   const token = useSelector((store) => store.cartReducer.token);
 
-    const dispatch =useDispatch();
-    const navigate=useNavigate();
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
   const [show, setshow] = useState(false);
   const [loginform, setloginform] = useState({
     mobileno: 0,
@@ -48,21 +48,18 @@ export const LoginPage = () => {
       });
       let data = await res.json();
       console.log(data);
-      // document.cookie = `token=${data.token}`;
+
       if (data.message) {
         setlerr(true);
         return;
-      } 
-      else {
-        // document.cookie = `token=${data.token}`;
-        Cookies.set('token', data.token)
-        let c=Cookies.get('token')
+      } else {
+        Cookies.set("token", data.token);
+        let c = Cookies.get("token");
         dispatch(addToken(c));
-        
-       
+
         setlerr(false);
 
-        navigate("/")
+        navigate("/");
         return;
       }
     } else {
@@ -110,19 +107,17 @@ export const LoginPage = () => {
         body: JSON.stringify(createform),
       });
       let data = await res.json();
-     
+
       if (data.message) {
         setlerr(true);
         return;
       } else {
-        // document.cookie = `token=${data.token}`;
-        Cookies.set('token', data.token)
-        let c=Cookies.get('token')
+        Cookies.set("token", data.token);
+        let c = Cookies.get("token");
         dispatch(addToken(c));
-        
-        
+
         setlerr(false);
-        navigate("/")
+        navigate("/");
         return;
       }
     }
@@ -142,8 +137,8 @@ export const LoginPage = () => {
             <img
               src="//utils.imimg.com/header/gifs/3.png"
               className="close"
-              onClick={()=>{
-                navigate("/")
+              onClick={() => {
+                navigate("/");
               }}
             ></img>
             <div className="step1">

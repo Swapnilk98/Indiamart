@@ -36,6 +36,7 @@
   font-size: small;
   margin-top: 0px;
   position: relative;
+  
 }
 
 .drop a {
@@ -213,9 +214,11 @@
 
 .signPop {
   width: 300px;
-  height: 480px;
+  height: 580px;
+  line-height: 30px;
+  color: black;
   font-size: small;
-  border-radius: 5px;
+  border-radius: 25px;
   background-color: white;
   margin-left: -230px;
   margin-top: -20px;
@@ -267,6 +270,7 @@
 .profile a{
   font-size: 15px;
   text-decoration: none;
+  color: black;
 }
 
 .signPop .profile1 {
@@ -279,9 +283,9 @@
   margin: 2px 0px;
   font-size: 15px;
 }
-.signPop .profile1 a {
+ .profile1 a {
   margin-left: 10px;
-  /* font-size: 18px; */
+color: black;
   text-decoration: none;
 }
 
@@ -297,9 +301,10 @@
   font-size: x-small;
   margin-bottom: 0;
 }
-.signPop .las {
+ .las {
   margin: auto;
   text-align: center;
+  color: black;
  
   margin-top: 20px;
 }
@@ -327,22 +332,20 @@
 }
 .Profileanchor {
   margin-top: -30px;
-  color: blue;
+  color: black;
 }
 .p1 {
   margin-top: -15px;
   margin-left: 18px;
 }
-/* .navImage{
-  width:25%;
-  height:100%;
+.mic{
+  height: 50px;
+  width: 40px;
+ color: red;
+  margin-top: 10px;
 }
-.navImagetag{
-  height:70%;
-  width:25%;
-  background-color: none;
   
-} */
+
 .signinpopupmain{
   margin-top: 50px;
   /* border: 1px solid red; */
@@ -393,14 +396,19 @@
   display: flex;
   margin-top: 5px;
 }
-.ALL {
-  
+.ALLp {
+  font-size: 16px;
+  font-weight: bold;
   margin-top: 7px;
-  
+  margin-left: 2px;
+  margin-right: 2px;
 }
 .searchbardiv {
+  /* height: 40px; */
+  /* changed height */
   height: 46px;
   width: 350px;
+  /* border:1px solid gray; */
   margin-top: 2px;
 }
 .searchbardiv > input {
@@ -418,8 +426,8 @@
 }
 .speakerDiv > img {
   width: 100%;
-  height: 90%;
-  margin-top: 5px;
+  height: 100%;
+  margin-top: 3px;
 }
 .PrizeButton {
   border-bottom-left-radius: 3px;
@@ -430,7 +438,7 @@
   margin-left: 40px;
   border: none;
   font-weight: 700;
-  width: 12%;
+  width: 14%;
   color: rgb(9, 9, 104);
 }
 .NavSearchButton {

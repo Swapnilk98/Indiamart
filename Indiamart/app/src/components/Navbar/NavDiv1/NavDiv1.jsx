@@ -1,10 +1,11 @@
 import React from "react";
 import "../Navbar.css";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-//import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import SearchIcon from "@mui/icons-material/Search";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import { Link } from "react-router-dom";
+import MicIcon from "@mui/icons-material/Mic";
 
 const NavDiv1 = () => {
   return (
@@ -27,17 +28,16 @@ const NavDiv1 = () => {
                 style={{ color: "grey", fontSize: "16px", marginTop: "7px" }}
               />
             </div>
-            <p className="ALL">All India</p>
+            <p className="ALLp">All India</p>
+
+            <div></div>
           </button>
         </div>
         <div className="searchbardiv">
           <input type="text" placeholder="Enter Product/Service to Search" />
         </div>
-        <div className="speakerDiv">
-          <img
-            src="https://blog.expertrec.com/wp-content/uploads/2019/06/Google-Voice.jpg"
-            alt=""
-          />
+        <div className="mic">
+          <MicIcon />
         </div>
         <button className="NavSearchButton">
           <div>
@@ -58,7 +58,7 @@ const NavDiv1 = () => {
               }}
             />
           </a>
-          <p className="navmenu3">Shopping</p>
+          <p className="navmenu3"> Shopping</p>
         </div>
       </div>
     </div>

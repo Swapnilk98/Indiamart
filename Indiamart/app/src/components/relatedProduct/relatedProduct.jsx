@@ -10,7 +10,7 @@ export const RelatedProduct = () => {
 
   const getData = async () => {
     try {
-      let res = await fetch("http://localhost:8000/relatedCategories");
+      let res = await fetch("  http://localhost:8000/relatedCategories");
       let allData = await res.json();
       setData(allData);
     } catch (error) {

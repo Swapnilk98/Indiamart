@@ -13,16 +13,16 @@ export const HomeReviews = () => {
         <div>
           <span id="rate">4.2</span>
           <sub>/5</sub>
-          <StarIcon className="yellow" />
-          <StarIcon className="yellow" />
-          <StarIcon className="yellow" />
-          <StarIcon className="yellow" />
+          <StarIcon className="orange" />
+          <StarIcon className="orange" />
+          <StarIcon className="orange" />
+          <StarIcon className="orange" />
           <StarIcon color="disabled" />
           <h2>Reviewed by 6 Users</h2>
         </div>
         <div>
           <p>
-            <span>4 Star</span>
+            <span>5 Star</span>
             <LinearProgress
               color="success"
               className="width"
@@ -30,20 +30,20 @@ export const HomeReviews = () => {
               variant="determinate"
               value={60}
             />
-            <span>1</span>
+            <span>4</span>
           </p>
           <p>
-            <span>3 Star</span>
+            <span>4 Star</span>
             <LinearProgress
               color="success"
               className="width"
               variant="determinate"
               value={20}
             />
-            <span>4</span>
+            <span>1</span>
           </p>
           <p>
-            <span>5 Star</span>
+            <span>3 Star</span>
             <LinearProgress
               color="inherit"
               className="width"
@@ -102,9 +102,9 @@ export const HomeReviews = () => {
         </div>
         <div>
           <p>
-            <span id="name">Jyoti</span> | Rama Collection | New Delhi, Delhi
+            <span id="name">Jyoti</span> |New Delhi, Delhi
           </p>
-          <StarIcon className="yellow" />
+          <StarIcon className="orange" />
           <StarIcon color="disabled" />
           <StarIcon color="disabled" />
           <StarIcon color="disabled" />
@@ -127,22 +127,20 @@ export const HomeReviews = () => {
       </div>
       <div className="sectionThree">
         <div>
-          <h1>R</h1>
+          <h1>V</h1>
         </div>
         <div>
           <p>
-            <span id="name">Rohit</span> | Blue Heven Collection | Delhi, Delhi
+            <span id="name">Vishvajit Kumar</span> | Sheohar, Bihar|
           </p>
-          <StarIcon className="yellow" />
-          <StarIcon className="yellow" />
-          <StarIcon className="yellow" />
-          <StarIcon className="yellow" />
-          <StarIcon className="yellow" />
-          <p>20-August-21</p>
+          <StarIcon className="orange" />
+          <StarIcon className="orange" />
+          <StarIcon className="orange" />
+          <StarIcon className="orange" />
+          <StarIcon className="orange" />
+          <p>27-September-21</p>
           <p>
-            <span>
-              Response <ThumbUpIcon className="reviewMargin green" />
-            </span>
+            <span>Product Name : Nail Polish </span>
           </p>
         </div>
       </div>
