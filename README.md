@@ -67,24 +67,24 @@ Deploy Link:-(https://magical-trifle-dda29f.netlify.app/)
 
 Landing page:
 
-![alt text](https://miro.medium.com/max/2732/1*ZKVGj4I3rNvxDRMHmFhhrA.png)
+![alt text](https://cdn-images-1.medium.com/max/400/1*0MapGPCsw0OHLJTonadYWA.png)
 
 Register Page:
 
-![alt text](file:///C:/Users/Dreams/Pictures/Screenshots/Screenshot%20(104).png)
+![alt text](https://cdn-images-1.medium.com/max/400/1*RG6kzILXBbx_gV2koZrPDQ.png)
 
 Signin Page:
 
-![alt text](file:///C:/Users/Dreams/Pictures/Screenshots/Screenshot%20(105).png)
+![alt text](https://cdn-images-1.medium.com/max/400/1*63fERjf7JBkJUuG-JvN5ug.png)
 
 Products Page:
 
-![alt text](file:///C:/Users/Dreams/Pictures/Screenshots/Screenshot%20(107).png)
+![alt text](https://cdn-images-1.medium.com/max/400/1*KmQh3T_PqMFAYqJjR2X_9w.png)
 
 Products Ordering:
 
-![alt text](file:///C:/Users/Dreams/Pictures/Screenshots/Screenshot%20(108).png)
+![alt text](https://cdn-images-1.medium.com/max/600/1*GbKJywDHNXNfUFby8zoJJg.png)
 
 order placed :
 
-![alt text](file:///C:/Users/Dreams/Pictures/Screenshots/Screenshot%20(109).png)
+![alt text](https://cdn-images-1.medium.com/max/600/1*7ffD8UZjLcN2DR0Gvq4VZA.png)
