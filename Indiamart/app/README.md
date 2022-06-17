@@ -61,6 +61,7 @@ Deploy Link:-(https://magical-trifle-dda29f.netlify.app/)
 • Clone the repository on local (https://github.com/Swapnilk98/Indiamart)
 
 • Then use command npm Start
+• we need to Run Json Server to run project
 
 ## some pictures of the website :
 
